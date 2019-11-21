@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Oligark vale</string>
+
+    <string-array name="para_birimleri">
+        <item>TL</item>
+        <item>Dolar</item>
+        <item>Euro</item>
+    </string-array>
+
+
+    <string-array name="park_alanları">
+        <item>Loca</item>
+        <item>A 11</item>
+        <item>B 11</item>
+    </string-array>
+
+</resources>

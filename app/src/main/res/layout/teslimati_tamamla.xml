@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/siyah"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/kart_no"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="@color/beyaz"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="12"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/oval_icon">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plaka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34 AT 130"
+                android:textColor="@color/beyaz"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:id="@+id/ad_soyad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ömer Nasuhi Aydemir"
+                android:textSize="18sp"
+                android:textColor="@color/beyaz"
+                android:textAlignment="center"
+
+                android:layout_gravity="center"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/park_yeri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loca"
+                android:textSize="18sp"
+                android:textColor="@color/beyaz"
+                android:textAlignment="center"
+
+                android:layout_gravity="center"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tel_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loca"
+                android:textSize="18sp"
+                android:textColor="@color/beyaz"
+                android:textAlignment="center"
+
+                android:layout_gravity="center"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tarih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loca"
+                android:textSize="18sp"
+                android:textColor="@color/beyaz"
+                android:textAlignment="center"
+
+                android:layout_gravity="center"
+                android:textStyle="normal">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/ücretsiz_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Ücretsiz"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/beyaz"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/vale_ücreti"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:background="@drawable/edittext_back"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Vale ücreti"
+            android:textColor="@color/beyaz"
+            android:gravity="center"
+            android:textColorHint="@color/beyaz"></EditText>
+
+
+
+        <Spinner
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/para_birimi"
+            android:entries="@array/para_birimleri"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_back"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ekstra_gir_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_back">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/yeni_arac_icon"
+                android:layout_gravity="center"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ekstra"
+                android:textColor="@color/beyaz"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/not_gir_button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_back">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/yeni_arac_icon"
+                    android:layout_gravity="center"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not"
+                    android:textColor="@color/beyaz"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"></TextView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ekstra_layout"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/ekstra_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_back"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Ekstra gir"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"></EditText>
+
+
+            <EditText
+                android:id="@+id/ekstra_ücret_edittext"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_back"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:hint="Ücret"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"></EditText>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/not_layout"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/not_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_back"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Not gir"
+                android:padding="5dp"
+
+                android:layout_weight="1"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"></EditText>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/toplam_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toplam"
+                android:textColor="@color/beyaz"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/toplam_ücret_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 TL"
+                android:textColor="@color/beyaz"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"></TextView>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/beyaz"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"></ImageView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/teslimat_tamamla_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mavi_button_back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Teslimatı tamamla"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/beyaz"></Button>
+
+
+
+
+</LinearLayout>
